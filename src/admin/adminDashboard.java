@@ -45,10 +45,10 @@ public class adminDashboard extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(62, 62, 62)
                 .addComponent(jLabel1)
-                .addContainerGap(226, Short.MAX_VALUE))
+                .addContainerGap(200, Short.MAX_VALUE))
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                    .addContainerGap(128, Short.MAX_VALUE)
+                    .addContainerGap(102, Short.MAX_VALUE)
                     .addComponent(jLabel2)
                     .addGap(65, 65, 65)))
         );
@@ -66,6 +66,7 @@ public class adminDashboard extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     /**
